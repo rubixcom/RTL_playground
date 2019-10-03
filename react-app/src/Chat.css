@@ -1,0 +1,46 @@
+@keyframes appear {
+    from {opacity: 0; transform: translateX(-1000%) scale(0.0)}
+    to {opacity: 100;}
+}
+
+.MessageBubble {
+    background: white;
+    display: block;
+    margin: 20px;
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 50px;
+    animation-name: appear;
+    animation-duration: 1s;
+    text-align: left;
+}
+
+.UserPic {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+
+    line-height:50px;
+    text-align:center;
+    background:white;
+
+}
+
+.ChatStream {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.TimeStamp {
+    font-weight: 800;
+    display: block;
+    text-align: left;
+}
+
+.Message {
+    display: inline;
+    text-align: left;
+}
