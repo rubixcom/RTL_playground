@@ -16,7 +16,6 @@ npm run test
 ```bash
 cd react-native-app
 npm i
-npm run start
 ```
 Run in Android
 ```bash
